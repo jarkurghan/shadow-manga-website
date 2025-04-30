@@ -1,0 +1,455 @@
+.container-padding {
+    margin-top: 5px;
+    padding: 0px 20% !important;
+    margin-bottom: 100px;
+}
+
+.wrapper_home_container {
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper_single_container {
+    margin-top: 80px;
+    padding: 0px 20% !important;
+    margin-bottom: 100px;
+}
+
+.app_footer {
+    width: 100%;
+}
+
+.container-navbar {
+    margin-top: 5px;
+    padding: 0px 20%;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-transform: none !important;
+}
+
+.Mui-selected {
+    text-transform: none !important;
+}
+
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root {
+    text-transform: none !important;
+}
+
+.hero_btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero_item_wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    position: relative;
+}
+
+.details_item_wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* .detail_item {
+    width: 300px;
+    height: 520px;
+} */
+
+.hero_item {
+    margin: 10px 5px;
+    flex: 1 !important;
+}
+
+.imgSizCard {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.category_image_wrapper {
+    height: 400px !important;
+}
+
+.carousel_img {
+    width: 300px !important;
+    height: 300px !important;
+}
+
+.border_left {
+    min-height: 400% !important;
+}
+
+.card-wrapper {
+    height: 400px;
+}
+
+@media screen and (max-width: 765px) {
+    .sm-border-t-2 {
+        border-top: 2px solid indigo;
+    }
+}
+
+/* @media screen and (max-width: 765px) {
+    .detail_item {
+        height: 570px;
+    }
+} */
+
+@media screen and (max-width: 975px) {
+    .container-padding {
+        padding: 0px 10% !important;
+    }
+
+    /* .container-navbar{
+    padding: 0px 10%;
+  } */
+    .hero_item_wrapper {
+        display: contents;
+    }
+}
+
+/* @media only screen and (max-width: 100%) and (min-width: 1800px) {
+   .container-padding {
+    display: flex;
+  }
+  .container_wrapper{
+    display: flex;
+  }
+} */
+.item-for-step-second {
+    text-align: center;
+}
+
+.item-for-step-second h3 {
+    color: rgb(79, 111, 143);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.item-for-step-second p {
+    color: rgb(0, 24, 51);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 24, 51);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total_change {
+    color: rgb(0, 24, 51);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.carusel_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hotel-policy>*:nth-child(3n + 1),
+.hotel-policy>*:nth-child(3n) {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+@media (min-width: 640px) {
+
+    .hotel-policy>*:nth-child(3n + 1),
+    .hotel-policy>*:nth-child(3n) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.hotel-policy>*:nth-child(2n + 1) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.hotel-policy>*:nth-child(3n + 1) {
+    font-weight: 500;
+}
+
+@media (min-width: 640px) {
+    .hotel-policy>*:nth-child(3n + 1) {
+        text-align: right;
+    }
+}
+
+.hotel-amenity-list {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .hotel-amenity-list {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hotel-amenity-list {
+        column-count: 1;
+    }
+}
+
+.hotel-tab-menu-mb {
+    display: none !important;
+}
+
+.hotel-tab-menu-pc-item {
+    display: inherit !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .hotel-tab-menu-mb {
+        display: inherit !important;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .hotel-tab-menu-pc-item {
+        display: none !important;
+    }
+
+    .banner_wrapper {
+        flex-direction: column;
+    }
+
+    .banner_wrapper_item {
+        margin-top: 15px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .banner_info_wrapper {
+        flex-direction: column;
+    }
+}
+
+#nav2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#nav2 .ant-tabs-nav {
+    margin-bottom: 2px !important;
+    padding-inline: 15px;
+}
+
+.nav2-1 .ant-tabs-nav {
+    border-bottom: 1px solid #bdbec2;
+}
+
+.nav2-2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    padding-inline: 20% !important;
+    background-color: white;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 975px) {
+    .nav2-2 {
+        padding-inline: 10% !important;
+    }
+}
+
+.navbar_items_wrapper {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding: 0.75rem 1rem;
+}
+
+.MuiSelect-select {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.banner_img {
+    cursor: pointer;
+    width: 100% !important;
+    height: 290px !important;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.banner_info_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.banner_info_wrapper_item1 {
+    flex: 1;
+}
+
+.banner_info_wrapper_item2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+@media only screen and (max-width: 480px) {
+    .container-navbar {
+        padding: 0px 30px;
+    }
+
+    /* .wrapper_home_container {
+    padding: 0px 30px !important;
+  } */
+
+    .banner_img {
+        width: 580px !important;
+        height: 180px !important;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .container-navbar {
+        padding: 0px 10%;
+    }
+}
+
+.px-k {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+@media only screen and (min-width: 512px) {
+    .px-k {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+.avatar {
+    width: 32px;
+    border-radius: 50%;
+}
+
+/* Add shadow to navbar */
+nav.fixed {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+/* Adjust mobile menu spacing */
+.mobile-menu {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1px solid rgb(229 231 235);
+}
+
+/* Date Picker Styles */
+.rdrDefinedRangesWrapper {
+    display: none !important;
+}
+
+.rdrDateRangePickerWrapper {
+    background: white;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+}
+
+.rdrDateDisplayWrapper {
+    background-color: transparent;
+}
+
+.rdrCalendarWrapper {
+    font-size: 14px;
+}
+
+.rdrDayInRange {
+    background-color: #e6f4ff !important;
+}
+
+.rdrDayInRange .rdrDayNumber span {
+    color: #0f172a !important;
+    /* Dark color for better visibility */
+}
+
+.rdrDayHovered {
+    border-radius: 0 !important;
+}
+
+.rdrStartEdge,
+.rdrEndEdge {
+    background-color: #0ea5e9 !important;
+}
+
+.rdrStartEdge .rdrDayNumber span,
+.rdrEndEdge .rdrDayNumber span {
+    color: white !important;
+}
+
+.rdrDayStartPreview,
+.rdrDayInPreview,
+.rdrDayEndPreview {
+    border: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .rdrDateRangePickerWrapper {
+        width: 100%;
+    }
+
+    .rdrCalendarWrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mobile_m_not_work {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+.border_date_picker {
+    border: rgb(230, 229, 229) 1px solid !important;
+}
+
+.border_date_picker:hover {
+    border-color: #3B82F6 !important;
+    /* Blue-500 */
+}
+
+@media (max-width: 640px) {
+    .fullButtonContainer>* {
+        width: 100%;
+    }
+}
