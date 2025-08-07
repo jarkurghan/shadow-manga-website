@@ -10,7 +10,7 @@ export default function Home() {
                     <p className="max-w-sm">Dastur va website tayyorlanish jarayonida! Hozircha botimizda anime tomosha qilishga taklif qilamiz :)</p>
                     <Link href={"https://t.me/aniuz_bot?start=website"} target="_blank">
                         <button type="button" className="flex justify-center w-xs items-center gap-4 h-10 text-white bg-blue-500 hover:bg-blue-600 transition rounded-lg cursor-pointer">
-                            <TgIcon /> Botga o'tish
+                            <TgIcon /> Botga o&rsquo;tish
                         </button>
                     </Link>
                 </div>
