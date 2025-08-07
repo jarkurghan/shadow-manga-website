@@ -1,3 +1,0 @@
-User-agent: * 
-# https://www.robotstxt.org/robotstxt.html
-Sitemap: https://shadowmanga.uz/sitemap.xml 

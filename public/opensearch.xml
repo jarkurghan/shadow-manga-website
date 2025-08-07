@@ -1,7 +1,0 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-    <ShortName>ShadowManga</ShortName>
-    <Description>Search shadowmanga.uz</Description>
-    <InputEncoding>UTF-8</InputEncoding>
-    <Image width="16" height="16" type="image/x-icon">https://shadowmanga.uz/favicon.png</Image>
-    <Url type="text/html" method="get" template="https://shadowmanga.uz/search?q={searchTerms}"/>
-</OpenSearchDescription>

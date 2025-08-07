@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+::selection {
+    background: #3b82f6;
+    color: #fff;
+}
+
+.body-padding {
+    padding-right: 0px !important;
+    overflow-y: scroll !important;
+}

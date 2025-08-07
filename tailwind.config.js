@@ -1,14 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-    content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+// tailwind.config.js
+module.exports = {
+    content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {
-            screens: {
-                sm420: "420px",
+            fontFamily: {
+                sans: "var(--font-poppins)",
             },
         },
     },
-    plugins: [
-        require('tailwind-scrollbar-hide')
-    ],
+    plugins: [],
 };
